@@ -1,0 +1,20 @@
+File Directory :
+         cd
+
+airflow Venv Directory:
+         source temp/bin/activate
+
+Dag Directory:
+        cd /mnt/c
+        cd airflow
+
+to RUN airflow webserver:
+        airflow webserver
+
+to RUN airflow scheduler:
+	airflow scheduler
+
+kill the last host:
+export AIRFLOW_HOME=`pwd`/airflow
+
+
